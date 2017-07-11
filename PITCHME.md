@@ -142,6 +142,19 @@ My first dataset, 65, 59, 80, 81, 56, 55, 40
 My second dataset, 28, 48, 40, 19, 86, 27, 90
 </canvas>
 
++++
+
+<canvas data-chart="bar" data-chart-src="data.csv">
+<!-- 
+{
+"data" : {
+"datasets" : [{ "backgroundColor": "#0f0" }, { "backgroundColor": "#0ff" } ]
+},
+"options": { "responsive": true, "scales": { "xAxes": [{ "stacked": true }], "yAxes": [{ "stacked": true }] } }
+}
+-->
+</canvas>
+
 ---
 
 ## Settings
