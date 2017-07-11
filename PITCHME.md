@@ -113,24 +113,19 @@ GitPitchではマークダウンの中にHTMLを記述することが出来る�
 
 +++
 
-グラフ自体は[Chart.js](http://www.chartjs.org/)を利用して描画されます。
+GitPitchはスライドの機能のために[reveal.js](http://lab.hakim.se/reveal-js/)というライブラリを利用しているのでうが、グラフ自体はこのreveal.jsの[プラグイン](https://github.com/rajgoel/reveal.js-plugins/tree/master/chart)を利用して描画されます。
 
-どのようなコードを書けばいいかは、Chart.jsの設定を確認してください。
+どのようなコードを書けばいいかは、プラグインの設定を確認してください。
 
 +++
 
 以下に簡単なサンプルを示します。
 
 ```
-<canvas data-chart="bar" data-chart-src="data.csv">
-<!-- 
-{
-"data" : {
-"datasets" : [{ "backgroundColor": "#0f0" }, { "backgroundColor": "#0ff" } ]
-},
-"options": { "responsive": true, "scales": { "xAxes": [{ "stacked": true }], "yAxes": [{ "stacked": true }] } }
-}
--->
+<canvas data-chart="line">
+Month, January, February, March, April, May, June, July
+First dataset, 65, 59, 80, 81, 56, 55, 40
+Second dataset, 28, 48, 40, 19, 86, 27, 90
 </canvas>
 ```
 
@@ -138,21 +133,8 @@ GitPitchではマークダウンの中にHTMLを記述することが出来る�
 
 <canvas data-chart="line">
 Month, January, February, March, April, May, June, July
-My first dataset, 65, 59, 80, 81, 56, 55, 40
-My second dataset, 28, 48, 40, 19, 86, 27, 90
-</canvas>
-
-+++
-
-<canvas data-chart="bar" data-chart-src="data.csv">
-<!-- 
-{
-"data" : {
-"datasets" : [{ "backgroundColor": "#0f0" }, { "backgroundColor": "#0ff" } ]
-},
-"options": { "responsive": true, "scales": { "xAxes": [{ "stacked": true }], "yAxes": [{ "stacked": true }] } }
-}
--->
+First dataset, 65, 59, 80, 81, 56, 55, 40
+Second dataset, 28, 48, 40, 19, 86, 27, 90
 </canvas>
 
 ---
