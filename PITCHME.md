@@ -18,7 +18,7 @@ GitPichはGitのホスティングサービスに置かれたマークダウン�
 - Gitea.io
 - Gogs.io
 
-> ※自分で作ったGitlabについてはよく分かりません。
+> OSS版のGitlabについてはよく分かりません。
 
 +++
 
@@ -26,7 +26,11 @@ GitPichはGitのホスティングサービスに置かれたマークダウン�
 
 Gitのホスティングサービスにリポジトリを作成し、`PITCHME.md`というマークダウンファイルをコミットしてリポジトリにPushすればいいだけです。
 
-あとは`https://gitpitch.com/[your name]/[project]`という形式のURLにアクセスするとスライドが表示されます。
+あとは
+
+`https://gitpitch.com/[your name]/[project]`
+
+という形式のURLにアクセスするとスライドが表示されます。
 
 ---
 
@@ -52,4 +56,18 @@ Gitのホスティングサービスにリポジトリを作成し、`PITCHME.md
 
 ## Code Presenting
 
-It works.
++++
+
+GitPitchではコードを強調させながらスライドを展開することが出来ます。
+
++++
+
+```
+print("コードが")
+
+print("強調")
+print("されている！！")
+
+@[1]
+@[2-3]
+```
