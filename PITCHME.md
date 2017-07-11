@@ -121,6 +121,8 @@ GitPitchはスライドの機能のために[reveal.js](http://lab.hakim.se/reve
 
 以下に簡単なサンプルを示します。
 
+以下のようなコードを書くと…
+
 ```
 <canvas data-chart="line">
 Month, January, February, March, April, May, June, July
@@ -131,11 +133,19 @@ Second dataset, 28, 48, 40, 19, 86, 27, 90
 
 +++
 
+このようにグラグを表示出来ます。
+
 <canvas data-chart="line">
 Month, January, February, March, April, May, June, July
 First dataset, 65, 59, 80, 81, 56, 55, 40
 Second dataset, 28, 48, 40, 19, 86, 27, 90
 </canvas>
+
++++
+
+この機能を利用するには__PITCHME.yaml__というファイルに設定を記述する必要があります。
+
+__PITCHME.yaml__については後述します。
 
 ---
 
