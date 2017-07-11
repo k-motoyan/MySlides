@@ -99,15 +99,53 @@ GitPitchではテキストを順次表示していくような機能が提供さ
 
 +++
 
+リストの末尾に__|__を付与することで機能を利用することが出来ます。
+
 この機能は残念ながら、リスト表記に対してしか利用することは出来ません。
 
-以下のように、リストの末尾に__\|__を付与することで機能を利用することが出来ます。
+---
+
+## Charts
+
+なんと、GitPitchでは簡単なグラフをコードで記述することが出来るのです！
+
+GitPitchではマークダウンの中にHTMLを記述することが出来るのですが、HTMLでCanvasタグを記述し、その中にグラフのためのコードを記述することでグラフを作ることが出来ます。
+
++++
+
+グラフ自体は[Chart.js](http://www.chartjs.org/)を利用して描画されます。
+
+どのようなコードを書けばいいかは、Chart.jsの設定を確認してください。
+
++++
+
+以下に簡単なサンプルを示します。
 
 ```
-- A |
-- B |
-- C |
+<canvas data-chart="bar" data-chart-src="data.csv">
+<!-- 
+{
+"data" : {
+"datasets" : [{ "backgroundColor": "#0f0" }, { "backgroundColor": "#0ff" } ]
+},
+"options": { "responsive": true, "scales": { "xAxes": [{ "stacked": true }], "yAxes": [{ "stacked": true }] } }
+}
+-->
+</canvas>
 ```
+
++++
+
+<canvas data-chart="bar" data-chart-src="data.csv">
+<!-- 
+{
+"data" : {
+"datasets" : [{ "backgroundColor": "#0f0" }, { "backgroundColor": "#0ff" } ]
+},
+"options": { "responsive": true, "scales": { "xAxes": [{ "stacked": true }], "yAxes": [{ "stacked": true }] } }
+}
+-->
+</canvas>
 
 ---
 
