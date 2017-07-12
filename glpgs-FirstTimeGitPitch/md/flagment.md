@@ -4,9 +4,9 @@
 
 GitPitchではテキストを順次表示していくような機能が提供されています。
 
-<span class="fragment">このように</span>
-<span class="fragment">少しずつ</span>
-<span class="fragment">表示することが出来ます。</span>
+<div class="fragment">このように</div>
+<div class="fragment">少しずつ</div>
+<div class="fragment">表示することが出来ます。</div>
 
 +++
 
