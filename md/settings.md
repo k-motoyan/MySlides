@@ -8,9 +8,6 @@ GitPitchでは決められた範囲でスライドに独自のカスタマイズ
 
 +++
 
-設定項目は下記のとおりです。
+この設定により、背景画像、ロゴ画像、カスタムCSSの定義、プラグインの有効化などを行うことが可能です。
 
-|key|value|description|
-|---|---|---|
-|theme|black, moon, night, beige, sky, white|スライドのカラーテーマ|
-|a|a|a|
+機能はたくさんあり、スライドで話すには多すぎるのでより多くの設定を知りたい人は[公式のWiki](https://github.com/gitpitch/gitpitch/wiki/Slideshow-Settings)を参照してください。
