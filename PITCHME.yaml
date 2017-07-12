@@ -1,4 +1,5 @@
-charts : true
-transition : default
+theme: sky
+transition: default
 slide-number: true
-footnote : "© 2017 k-motoyan."
+footnote: "© 2017 k-motoyan."
+charts: true
