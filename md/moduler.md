@@ -12,7 +12,7 @@ GitPitchでは外部のマークダウンファイルを読み込む機能が提
 この機能は以下のように記述することで利用出来ます。
 
 ```
-\-\-\-?include=path/to/any.md
+\---?include=path/to/any.md
 ```
 
 +++
@@ -28,11 +28,13 @@ PITCHME.md
     └ bar.md
 </pre>
 
++++
+
 下記のように読み込むことが出来ます。
 
 ```
 # Title
 
-\-\-\-?include=md/foo.md
-\-\-\-?include=md/bar.md
+\---?include=md/foo.md
+\---?include=md/bar.md
 ```
