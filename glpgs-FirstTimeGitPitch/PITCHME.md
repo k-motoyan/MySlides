@@ -8,3 +8,10 @@
 ---?include=glpgs-FirstTimeGitPitch/md/moduler.md
 ---?include=glpgs-FirstTimeGitPitch/md/settings.md
 ---?include=glpgs-FirstTimeGitPitch/md/multiple_presentation.md
+---?include=glpgs-FirstTimeGitPitch/md/speaker_note.md
+
+---
+
+## Appendix
+
+- https://github.com/gitpitch/gitpitch/wiki
