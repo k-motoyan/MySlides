@@ -2,7 +2,7 @@
 
 ---
 
-<canvas data-chart="rader">
+<canvas data-chart="bar">
 Month, January, February, March, April, May, June, July
 First dataset, 65, 59, 80, 81, 56, 55, 40
 Second dataset, 28, 48, 40, 19, 86, 27, 90
