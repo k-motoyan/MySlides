@@ -2,7 +2,7 @@
 
 This is a repository for managing my GitPitch slides.
 
-Each slide is categorized by branch.
+Each slide is categorized by directory.
 
 ## Slides
 
