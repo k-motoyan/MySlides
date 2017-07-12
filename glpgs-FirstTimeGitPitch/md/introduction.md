@@ -31,9 +31,9 @@ QiitaSlideは大分イイ線をいっているが、ちょっと機能不足
 #### 素敵なスライドが作れてしまう！
 
 +++?image=glpgs-FirstTimeGitPitch/assets/charts.png&size=auto 80%
-<!-- .slide: data-background-transition="convex" -->
+<!-- .slide: data-background-transition="default" -->
 +++?image=glpgs-FirstTimeGitPitch/assets/snipet.png&size=auto 80%
-<!-- .slide: data-background-transition="convex" -->
+<!-- .slide: data-background-transition="default" -->
 
 +++
 
