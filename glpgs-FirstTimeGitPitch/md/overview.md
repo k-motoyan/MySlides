@@ -1,4 +1,4 @@
-## GitPitch Overview
+## 概要
 
 +++
 

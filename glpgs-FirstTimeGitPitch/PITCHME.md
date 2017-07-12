@@ -1,7 +1,7 @@
 # First time GitPitch
 
+---?include=glpgs-FirstTimeGitPitch/md/introduction.md
 ---?include=glpgs-FirstTimeGitPitch/md/overview.md
----?include=glpgs-FirstTimeGitPitch/md/markdown.md
 ---?include=glpgs-FirstTimeGitPitch/md/code_presenting.md
 ---?include=glpgs-FirstTimeGitPitch/md/flagment.md
 ---?include=glpgs-FirstTimeGitPitch/md/charts.md
