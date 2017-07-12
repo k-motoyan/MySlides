@@ -12,6 +12,10 @@
 
 ---
 
+# Fin.
+
+---
+
 ## Appendix
 
 - https://github.com/gitpitch/gitpitch/wiki
