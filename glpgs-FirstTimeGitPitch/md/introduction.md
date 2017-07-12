@@ -41,6 +41,7 @@ QiitaSlideは大分イイ線をいっているが、ちょっと機能不足
 
 +++
 
-### Foo
-### Bar
-### Baz
+### No more <span style="color: #666666">Keynote.</span>
+### No more <span style="color: #666666">Powerpoint.</span>
+<br>
+### Just <span style="color: #e49436">Markdown</span>. Then <span style="color: #e49436">Git-Commit</span>.
