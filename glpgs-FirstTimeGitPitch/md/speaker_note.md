@@ -16,14 +16,14 @@ Note:
 
 ```
  hello world!!
-
+ 
  Note:
  おなじみのアレ
 
  ---
 
  foo bar baz ...
-
+ 
  Note:
  国によって言い方が変わるやつ
 ```
