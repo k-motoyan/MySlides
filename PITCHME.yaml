@@ -1,2 +1,3 @@
 charts : true
 transition : default
+slide-number: true
