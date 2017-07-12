@@ -30,13 +30,8 @@ QiitaSlideは大分イイ線をいっているが、ちょっと機能不足
 
 #### 素敵なスライドが作れてしまう！
 
-+++?image=glpgs-FirstTimeGitPitch/assets/charts.png
-
-![charts](glpgs-FirstTimeGitPitch/assets/charts.png)
-
-+++
-
-![snipet](glpgs-FirstTimeGitPitch/assets/snipet.png)
++++?image=glpgs-FirstTimeGitPitch/assets/charts.png&size=auto 70%
++++?image=glpgs-FirstTimeGitPitch/assets/snipet.png&size=auto 70%
 
 +++
 
