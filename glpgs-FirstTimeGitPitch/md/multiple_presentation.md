@@ -45,5 +45,7 @@ repository
 
 下記のURLでアクセスすることで、それぞれslide1、slide2のディレクトリ配下にあるPITCHME.mdのスライドページを表示することが出来ます。
 
-- https://gitpitch.com/your-name/project/?p=slide1
-- https://gitpitch.com/your-name/project/?p=slide2
+- https://gitpitch.com/your-name/project?p=slide1
+- https://gitpitch.com/your-name/project?p=slide2
+
+> URLクエリpの前に __/__ を付与すると動作しなくなるので注意が必要です。
