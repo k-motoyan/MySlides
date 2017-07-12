@@ -6,9 +6,4 @@
 ---?include=md/flagment.md
 ---?include=md/charts.md
 ---?include=md/moduler.md
-
----
-
-## Settings
-
-it works.
+---?include=md/settings.md
