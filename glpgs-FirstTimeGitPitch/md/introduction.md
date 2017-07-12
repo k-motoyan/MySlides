@@ -32,11 +32,11 @@ QiitaSlideは大分イイ線をいっているが、ちょっと機能不足
 
 +++
 
-![charts](glpgs-FirstTimeGitPitch/assets/charts.jpg)
+![charts](glpgs-FirstTimeGitPitch/assets/charts.png)
 
 +++
 
-![snipet](glpgs-FirstTimeGitPitch/assets/snipet.jpg)
+![snipet](glpgs-FirstTimeGitPitch/assets/snipet.png)
 
 +++
 
