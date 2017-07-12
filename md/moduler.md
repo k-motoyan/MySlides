@@ -1,5 +1,7 @@
 ## Moduler
 
++++
+
 GitPitchでは外部のマークダウンファイルを読み込む機能が提供されています。
 
 この機能のおかげで、多くのスライドページを作り込む時に一つのPITCHME.mdファイルが肥大化するのを防ぎ、
@@ -10,7 +12,7 @@ GitPitchでは外部のマークダウンファイルを読み込む機能が提
 この機能は以下のように記述することで利用出来ます。
 
 ```
----?include=path/to/any.md
+\-\-\-?include=path/to/any.md
 ```
 
 +++
@@ -31,6 +33,6 @@ PITCHME.md
 ```
 # Title
 
----?include=md/foo.md
----?include=md/bar.md
+\-\-\-?include=md/foo.md
+\-\-\-?include=md/bar.md
 ```
