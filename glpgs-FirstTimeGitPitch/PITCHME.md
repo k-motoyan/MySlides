@@ -7,3 +7,4 @@
 ---?include=glpgs-FirstTimeGitPitch/md/charts.md
 ---?include=glpgs-FirstTimeGitPitch/md/moduler.md
 ---?include=glpgs-FirstTimeGitPitch/md/settings.md
+---?include=glpgs-FirstTimeGitPitch/md/multiple_presentation.md
