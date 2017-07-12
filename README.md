@@ -6,4 +6,4 @@ Each slide is categorized by branch.
 
 ## Slides
 
-- [First time GitPitch](https://gitpitch.com/k-motoyan/MySlides/?p=glpgs--FirstTimeGitPitch)
+- [First time GitPitch](https://gitpitch.com/k-motoyan/MySlides/?p=glpgs-FirstTimeGitPitch)
