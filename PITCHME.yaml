@@ -1,2 +1,2 @@
 charts : true
-transition : zoom
+transition : convex
