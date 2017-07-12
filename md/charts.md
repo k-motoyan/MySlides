@@ -10,7 +10,7 @@ GitPitchではマークダウンの中にHTMLを記述することが出来る�
 
 GitPitchはスライドの機能のために[reveal.js](http://lab.hakim.se/reveal-js/)というライブラリを利用しているのでうが、グラフ自体はこのreveal.jsの[プラグイン](https://github.com/rajgoel/reveal.js-plugins/tree/master/chart)を利用して描画されます。
 
-どのようなコードを書けばいいかは、プラグインの設定を確認してください。
+どのようなコードを書けばいいかは、プラグインのページから使い方を確認してください。
 
 +++
 
