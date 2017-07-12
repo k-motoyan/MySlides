@@ -15,17 +15,17 @@ Note:
 マークダウンへのノートは、下記のようにページの末尾に__Note:__というブロックを作り記述します。
 
 ```
-hello world!!
+ hello world!!
 
-Note:
-おなじみのアレ
+ Note:
+ おなじみのアレ
 
----
+ ---
 
-foo bar baz ...
+ foo bar baz ...
 
-Note:
-国によって言い方が変わるやつ
+ Note:
+ 国によって言い方が変わるやつ
 ```
 
 Note:
