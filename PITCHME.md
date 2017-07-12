@@ -7,5 +7,3 @@
 ---?include=md/charts.md
 ---?include=md/moduler.md
 ---?include=md/settings.md
-
----
