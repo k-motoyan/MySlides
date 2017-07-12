@@ -1,4 +1,4 @@
-# First time GitPitch
+# 初めてのGitPitch
 
 ---?include=glpgs-FirstTimeGitPitch/md/introduction.md
 ---?include=glpgs-FirstTimeGitPitch/md/overview.md
@@ -12,10 +12,10 @@
 
 ---
 
-# Fin.
+# おわり
 
 ---
 
-## Appendix
+## 付録
 
 - https://github.com/gitpitch/gitpitch/wiki
