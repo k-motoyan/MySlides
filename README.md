@@ -7,3 +7,4 @@ Each slide is categorized by directory.
 ## Slides
 
 - [First time GitPitch](https://gitpitch.com/k-motoyan/MySlides?p=glpgs-FirstTimeGitPitch)
+- [llbuild](https://gitpitch.com/k-motoyan/MySlides?p=llbuild)
