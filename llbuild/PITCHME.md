@@ -1,4 +1,4 @@
 # llbuild
 
----?include=LLBUILD/md/indtroduction.md
----?include=LLBUILD/md/philosophy.md
+---?include=llbuild/md/indtroduction.md
+---?include=llbuild/md/philosophy.md
