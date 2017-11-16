@@ -132,7 +132,7 @@ final class MyBuildEngineDelegate: BuildEngineDelegate {
 ```
 
 @[1](BuildEngineDelegateプロトコルに準拠させます)
-@[2-12](Keyに対するビルドルールを実行します)
+@[3-12](Keyに対するビルドルールを実行します)
 
 +++
 
