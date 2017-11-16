@@ -60,9 +60,32 @@ Note:
 
 +++
 
-#### BuildEngine
+#### Task
 
-ビルドに関するルールを登録し、ビルドを実行する。
+計算処理の進行の管理を行う。
+
++++
+
+```
+final class MyTask: Task {
+    func start(_ engine: TaskBuildEngine) {
+        // タスクの開始処理
+    }
+
+    func provideValue(_ engine: TaskBuildEngine, inputID: Int, value: Value) {
+        // 依存入力の出力を解決する処理
+    }
+
+    func inputsAvailable(_ engine: TaskBuildEngine) {
+        // メイン入力の完了処理
+    }
+}
+```
+
+@[1](Taskプロトコルに準拠させます)
+@[2-4](タスクの開始、依存する入力がある場合ビルドエンジンに入力を処理するよう登録する)
+@[6-8](各入力の出力を処理します)
+@[10-12](入力の完了処理、ここで依存入力の出力を元にRuleから渡された計算処理を行います)
 
 +++
 
@@ -72,63 +95,24 @@ Note:
 
 +++
 
-#### Task
-
-計算処理の進行の管理を行う。
-
-+++
-
-#### Task Sample
-
-```
-final class MyTask: Task {
-    private let inputs: [Key]
-    private let compute: () -> Void
-
-    init(_ inputs: [Key], _ compute: @escaping () -> Void) {
-        self.inputs = inputs
-        self.compute = compute
-    }
-
-    func start(_ engine: TaskBuildEngine) { /* タスクの開始処理 */ }
-
-    func provideValue(_ engine: TaskBuildEngine, inputID: Int, value: Value) { /* 依存入力の出力を解決する処理 */ }
-
-    func inputsAvailable(_ engine: TaskBuildEngine) { /* メイン入力の完了処理 */ }
-}
-```
-
-@[1](Taskプロトコルに準拠させます)
-@[10-14](タスクの開始、依存する入力がある場合ビルドエンジンに入力を処理するよう登録する)
-@[16](各入力の出力を処理します、このサンプルでは利用しません)
-@[18-21](入力の完了処理、ここで依存入力の出力を元にRuleから渡された計算処理を行います)
-
-+++
-
-#### Rule Sample
-
 ```
 final class MyRule: Rule {
-    private let inputs: [Key]
-    private let compute: () -> Void
-
-    init(_ inputs: [Key], _ compute: @escaping () -> Void) {
-        self.inputs = inputs
-        self.compute = compute
-    }
-
     func createTask() -> Task {
-        return MyTask(inputs, compute)
+        return MyTask()
     }
 }
 ```
 
 @[1](Ruleプロトコルに準拠させます)
-@[10-12](タスクを生成します)
+@[2-4](タスクを生成します)
 
 +++
 
-#### BuildEngineDelegate Sample
+#### BuildEngineDelegate
+
+ビルドに関するルールを登録し、ビルドを実行する。
+
++++
 
 ```
 final class MyBuildEngineDelegate: BuildEngineDelegate {
@@ -148,12 +132,11 @@ final class MyBuildEngineDelegate: BuildEngineDelegate {
 ```
 
 @[1](BuildEngineDelegateプロトコルに準拠させます)
-@[3-19](Keyに対するビルドルールを実行します)
-@[15](本当はこの出力をValueとして扱うべきで、このコードは行儀が悪いのですが見逃してください；)
+@[2-12](Keyに対するビルドルールを実行します)
 
 +++
 
-#### Main Sample
+これらの処理は以下のようにして起動します。
 
 ```
 let delegate = MyBuildEngineDelegate()
