@@ -90,18 +90,11 @@ final class MyTask: Task {
         self.compute = compute
     }
 
-    func start(_ engine: TaskBuildEngine) {
-        for (i, input) in inputs.enumerated() {
-            engine.taskNeedsInput(input, inputID: i)
-        }
-    }
+    func start(_ engine: TaskBuildEngine) { /* タスクの開始処理 */ }
 
-    func provideValue(_ engine: TaskBuildEngine, inputID: Int, value: Value) {}
+    func provideValue(_ engine: TaskBuildEngine, inputID: Int, value: Value) { /* 依存入力の出力を解決する処理 */ }
 
-    func inputsAvailable(_ engine: TaskBuildEngine) {
-        compute()
-        engine.taskIsComplete(Value(""), forceChange: false)
-    }
+    func inputsAvailable(_ engine: TaskBuildEngine) { /* メイン入力の完了処理 */ }
 }
 ```
 
@@ -142,18 +135,11 @@ final class MyBuildEngineDelegate: BuildEngineDelegate {
     func lookupRule(_ key: Key) -> Rule {
         switch key.toString() {
         case "initialize":
-            return MyRule([]) {
-                mkdir(path: "/path/to/build")
-            }
+            return MyRule([]) { /* 処理 */ }
         case "compile":
-            return MyRule([Key("initialize")]) {
-                exec("swiftc main.swift -o /path/to/build/main")
-            }
+            return MyRule([Key("initialize")]) { /* 処理 */ }
         case "run":
-            return MyRule([Key("initialize"), Key("compile")]) {
-                let output = exec("/path/to/main")
-                print(output)
-            }
+            return MyRule([Key("initialize"), Key("compile")]) { /* 処理 */ }
         default:
             fatalError("unexpected key.")
         }
