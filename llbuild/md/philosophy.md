@@ -1,4 +1,4 @@
-## Philosophy
+## llbuildの哲学
 
 +++
 
