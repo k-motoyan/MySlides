@@ -56,12 +56,6 @@ Note:
 
 +++
 
-プロジェクトがこんな感じになっていればOK！
-
-image=llbuild/assets/llbuild-sample-project-structure.png&size=auto 80%
-
-+++
-
 ### コードを書く前にビルドに必要な機能を確認
 
 +++
@@ -102,8 +96,7 @@ final class MyTask: Task {
         }
     }
 
-    func provideValue(_ engine: TaskBuildEngine, inputID: Int, value: Value) {
-    }
+    func provideValue(_ engine: TaskBuildEngine, inputID: Int, value: Value) {}
 
     func inputsAvailable(_ engine: TaskBuildEngine) {
         compute()
@@ -114,8 +107,10 @@ final class MyTask: Task {
 
 @[1](Taskプロトコルに準拠させます)
 @[10-14](タスクの開始、依存する入力がある場合ビルドエンジンに入力を処理するよう登録する)
-@[16-17](各入力の出力を処理します、このサンプルでは利用しません)
-@[19-22](入力の完了処理、ここで依存入力の出力を元にRuleから渡された計算処理を行います)
+@[16](各入力の出力を処理します、このサンプルでは利用しません)
+@[18-21](入力の完了処理、ここで依存入力の出力を元にRuleから渡された計算処理を行います)
+
++++
 
 #### Rule Sample
 
@@ -137,6 +132,8 @@ final class MyRule: Rule {
 
 @[1](Ruleプロトコルに準拠させます)
 @[10-12](タスクを生成します)
+
++++
 
 #### BuildEngineDelegate Sample
 
