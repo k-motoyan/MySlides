@@ -36,6 +36,7 @@ C言語のAPIを呼び出す他に、Swift、Pythonの言語バインディン�
 
 Note:
 Xcode9で新たに追加されたビルドシステムはこのlibllbuildを利用して構築されているとのことです。
+Swift、Pythonともに提供されるのはCoreコンポーネントの機能だけで、BuildSystemへのバインディングは現時点では提供されていません。
 
 +++
 
