@@ -6,6 +6,6 @@
 
 +++
 
-### Xcgen（名称仮）
+### Xcmake
 
-+++?image=scaffolding-xcode-project/assets/xcode_scaffold_exec_screen.png&size=auto 80%
++++?image=scaffolding-xcode-project/assets/xmake_gem.png&size=auto
