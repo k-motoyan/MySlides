@@ -8,4 +8,4 @@
 
 ### Xcmake
 
-+++?image=scaffolding-xcode-project/assets/xmake_gem.png&size=auto
++++?image=scaffolding-xcode-project/assets/xcmake_gem.png&size=auto
