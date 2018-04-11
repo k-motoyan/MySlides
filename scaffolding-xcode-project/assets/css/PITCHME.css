@@ -1,3 +1,6 @@
 .reveal ul {
     list-style: none;
 }
+.reveal ul ul {
+    list-style: none;
+}
