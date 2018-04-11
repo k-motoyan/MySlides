@@ -3,5 +3,5 @@
 +++
 
 <video controls>
-  <source src="https://dl.dropboxusercontent.com/content_link/OrcZiTQDh6m109WxORRLNtpF6yzgOsCks1q0QnIZJEKXwOQSIf26mXXwuVM6i2Th/file" type="video/mp4">
+  <source src="https://www.dropbox.com/s/b8u3j2kcwkn1t64/xcmake_usage.mp4?raw=1" type="video/mp4">
 </video>
