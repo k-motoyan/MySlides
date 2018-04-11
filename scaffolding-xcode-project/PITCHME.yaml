@@ -2,4 +2,4 @@ theme: black
 slide-number: true
 footnote: "© 2018 k-motoyan."
 charts: false
-theme-override : assets/PITCHME.css
+theme-override: assets/css/PITCHME.css
