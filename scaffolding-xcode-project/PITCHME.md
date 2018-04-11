@@ -2,8 +2,8 @@
 
 ---?include=scaffolding-xcode-project/md/what_is_scaffold.md
 ---?include=scaffolding-xcode-project/md/xcode_scaffolding.md
----?include=scaffolding-xcode-project/md/motivation.md
 ---?include=scaffolding-xcode-project/md/demo.md
+---?include=scaffolding-xcode-project/md/motivation.md
 
 ---
 
