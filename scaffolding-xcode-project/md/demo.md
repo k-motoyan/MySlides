@@ -2,6 +2,4 @@
 
 +++
 
-<video>
-  <source src="https://dl.dropboxusercontent.com/content_link/xJq9s1WDdy865xrfolD8zn6AXiHoZJqchW4htziEPzb8DMS1caVgjq4tFDiMSJYr/file?_download_id=19265209663914534250858060093555335092739704607079743513025064455&_notify_domain=www.dropbox.com&dl=1" controls autoplay>
-</video>
+<video class="vjs-tech" id="video-0_html5_api" tabindex="-1" preload="auto" src="blob:https://www.dropbox.com/33003f3a-17c9-8a41-b764-fa9a5f0c5e56"><source src="https://www.dropbox.com/v/s/playlist/ATwrt7LFhF7NaKRvybxa-w4QOK50qbQCLX4ITueLET7u1I1YmVx2u4ggnxavXKl3nOhGg3jCJnu-1l58JooScDH6UStJ1wmbaWixokv_dd_lwhn-zXyJ2uswotVOfN7EwybP0iTh4LI94kXf8sH4k36Qk8YKXzIquAEuxxnG7SDHXuhq-1NQwfCHv4hcer93Q_Q62D_-pzfEVBB6Eaoj8vmu1TRvT2qSV6xKK2oVXL59ZNQ79RlHx9PhsE36Yymm7ORmcJU6qv1bH9xCDw02aDjD" type="application/vnd.apple.mpegurl"></video>
