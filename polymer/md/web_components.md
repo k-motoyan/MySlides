@@ -1,7 +1,5 @@
 ## Web Components
 
-カスタムエレメントというのはHTMLで独自の機能を持つタグのことです。
-
 Note:
 Polymerの話をする前に、Web Componentsについて概要を知っておいたほうがPolymerを理解する大きな手助けになります。
 
