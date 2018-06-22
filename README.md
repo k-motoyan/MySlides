@@ -9,3 +9,4 @@ Each slide is categorized by directory.
 - [First time GitPitch](https://gitpitch.com/k-motoyan/MySlides?p=glpgs-FirstTimeGitPitch)
 - [llbuild](https://gitpitch.com/k-motoyan/MySlides?p=llbuild)
 - [Scaffolding Xode project](https://gitpitch.com/k-motoyan/MySlides?p=scaffolding-xcode-project)
+- [Polymer](https://gitpitch.com/k-motoyan/MySlides?p=polymer)
